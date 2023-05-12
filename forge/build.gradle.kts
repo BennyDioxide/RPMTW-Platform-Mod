@@ -50,7 +50,7 @@ dependencies {
 
     forgeRuntimeLibrary(kotlin("stdlib-jdk8", version = "1.7.22"))
     forgeRuntimeLibrary(kotlin("reflect", version = "1.7.22"))
-    forgeRuntimeLibrary("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
+    forgeRuntimeLibrary("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.1")
 
     "common"(project(path = ":common", configuration = "namedElements")) { isTransitive = false }
     bundle(project(path = ":common", configuration = "transformProductionForge")) { isTransitive = false }
